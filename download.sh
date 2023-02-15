@@ -23,7 +23,7 @@ unzip_singbox() {
 }
 
 download_xray() {
-  VERSION="v1.7.2"
+  VERSION="v1.7.5"
   mkdir_libs "app_xray/libs"
 
   curl -Lso xray.zip "https://github.com/XTLS/Xray-core/releases/download/$VERSION/Xray-android-arm64-v8a.zip"
@@ -59,7 +59,7 @@ download_brook() {
 }
 
 download_hysteria() {
-  VERSION="v1.3.1-1"
+  VERSION="v1.3.3-1"
   mkdir_libs "app_hysteria/libs"
 
   dl_and_chmod arm64-v8a/libhysteria.so "https://github.com/MatsuriDayo/hysteria/releases/download/$VERSION/hysteria-linux-arm64"
